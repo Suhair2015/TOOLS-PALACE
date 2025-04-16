@@ -1,0 +1,35 @@
+/* Universal Selector */
+body{
+    font-family:Arial, Helvetica, sans-serif;
+  
+}
+/* navbar styling */
+nav{
+    color: whitesmoke;
+}
+/* header */
+/* grouping slector */
+header, .color{
+    background-color: rgb(56, 56, 92);
+    color: whitesmoke;
+    text-decoration: none;
+   
+}
+#main{
+    background-color: rgb(56, 56, 92);
+    color: whitesmoke;
+    text-decoration: none;  
+}
+h1{
+    color: rgb(111, 0, 255);   
+}
+
+h2 {
+    color: rgb(111, 0, 255);
+}
+h3 {
+    color: rgb(111, 0, 255);
+}
+h4 {
+    color: rgb(111, 0, 255);
+}

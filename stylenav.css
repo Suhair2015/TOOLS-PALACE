@@ -1,0 +1,12 @@
+nav a {
+    color: #93b4e5;
+   text-decoration: none;
+}
+
+a:hover{
+    color: rgba(121, 134, 212, 0.397);
+}
+
+nav a:on-click{
+    background-color: whitesmoke;
+}
