@@ -101,10 +101,17 @@ input{
   border: 4px solid #ff0000;
 }
 
-images{
- 0%   {src:'2.jpg'; left:0px; top:0px;}
-  25%  {src='+.jpg'; left:200px; top:0px;}
-  50%  {src='tool ad.jpg/pictures'; left:200px; top:200px;}
-  75%  {src:'untitled1.jpg'; left:0px; top:200px;}
-  100% {src:'untitled.jpg'; left:0px; top:0px;}
+image{
+  width: 200px;
+  height: 100px;
+
+  animation-iteration-count: infinite;
+
+
+
 }
+
+#image1 {src:'2.jpg' ;}
+#image2 {src:'+.jpg';}
+#image3 {src:''tool ad.jpg ;}
+#image4 {src:'utitled1.jpg';}
