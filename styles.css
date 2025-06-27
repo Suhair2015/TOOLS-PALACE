@@ -106,12 +106,13 @@ image{
   height: 100px;
 
   animation-iteration-count: infinite;
-
+from {left: 0px;}
+  to {left: 300px;}
 
 
 }
 
-#image1 {src:'2.jpg' ;}
-#image2 {src:'+.jpg';}
-#image3 {src:''tool ad.jpg ;}
-#image4 {src:'utitled1.jpg';}
+image1 {src:'2.jpg' ;}
+image2 {src:'+.jpg';}
+image3 {src:''tool ad.jpg ;}
+image4 {src:'utitled1.jpg';}
