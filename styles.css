@@ -1,35 +1,99 @@
 /* Universal Selector */
-body{
-    font-family:Arial, Helvetica, sans-serif;
-  
+html,body{
+   background: #100024;
+background: linear-gradient(90deg,rgba(16, 0, 36, 1) 0%, rgba(38, 76, 133, 1) 37%,
+ rgba(42, 98, 176, 1) 52%, rgba(38, 104, 185, 1) 60%, rgba(22, 127, 219, 1) 69%,
+ rgba(69, 153, 217, 1) 82%, rgba(150, 213, 227, 1) 93%, rgba(160, 235, 250, 1) 100%);
+     margin: 0;
+    padding: 0;
+    width: auto;
+    height: 100%; 
+    font-family:Arial, Helvetica, sans-serif
+ 
 }
-/* navbar styling */
-nav{
-    color: whitesmoke;
-}
+
 /* header */
 /* grouping slector */
 header, .color{
-    background-color: rgb(56, 56, 92);
+background-color: #100024;
     color: whitesmoke;
     text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   font-style:italic ; 
+   font-weight: bold;
+   
    
 }
 #main{
-    background-color: rgb(56, 56, 92);
+  background-color: #100024;
+   
     color: whitesmoke;
     text-decoration: none;  
 }
+
+  .Future {
+    width: 50%;
+ height:150px;
+ background-color:salmon ;
+ border-style: solid;
+ border-color: rgb(253, 156, 10);
+ margin: 20px auto;
+ padding: 20px;
+ font-size: large;
+ box-sizing: border-box;
+ overflow: auto;
+ }
+ p{
+    color: white;
+ }
+
 h1{
-    color: rgb(111, 0, 255);   
+    color: rgb(255, 0, 0);
+   
 }
 
-h2 {
-    color: rgb(111, 0, 255);
+h2{
+    color: rgb(255, 0, 0);
+   
 }
-h3 {
-    color: rgb(111, 0, 255);
+h3{
+    color: red;
+   
 }
-h4 {
-    color: rgb(111, 0, 255);
+h4{
+    color: red;
+}
+ol{
+    color:white;
+}
+table{
+    color:yellow;
+}
+label{
+ color:rgb(255, 255, 255);
+}
+ul{
+    color: white;
+}
+#good{
+    text-align: center;
+    font-size: x-large;
+}
+#search-bar {
+    margin: auto;
+  width: 1360px; 
+  height: 100px;
+  border: 10px solid #ff0000;
+  
+  text-align: center;
+  font-size:x-large;
+}
+#fsrch {
+    margin: auto;
+  width: 1000px; 
+ height: 34px;
+  border: 5px solid #ff0000;
+  
+  text-align: center;
+  font-size:x-large;
 }
