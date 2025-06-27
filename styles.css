@@ -98,6 +98,6 @@ ul{
   font-size:x-large;
 }
 input{
-background-color: transparent;
+  border: 10px solid #ff0000;
 }
-}
+
