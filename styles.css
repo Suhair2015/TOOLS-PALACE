@@ -97,3 +97,7 @@ ul{
   text-align: center;
   font-size:x-large;
 }
+input{
+background-color: transparent;
+}
+}
