@@ -1,12 +1,20 @@
 nav a {
-    color: #93b4e5;
+    color: #0011ffdc;
    text-decoration: none;
 }
 
 a:hover{
-    color: rgba(121, 134, 212, 0.397);
+    color: rgb(0, 38, 255); 
 }
 
-nav a:on-click{
-    background-color: whitesmoke;
-}
+
+ div.relative {
+      position: relative;
+      left: 950px;
+ 
+
+    }
+    nav a{
+        margin-left:10px ;
+        margin-right: 10px;
+    }
